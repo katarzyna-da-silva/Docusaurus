@@ -4,32 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Concept DevOps',
+    Svg: require('@site/static/img/undraw_internet_on_the_go_re_vben.svg').default,
     description: (
+      
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+DevOps est une philosophie et un ensemble de pratiques liées à la combinaison des activités de développement et d'exploitation 
+afin d'augmenter l'efficacité des processus de livraison de logiciels. 
+Il s'efforce de minimiser la division entre les équipes, 
+permettant la livraison continue de logiciels de haute qualité.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Définition du DevOps :',
+    Svg: require('@site/static/img/undraw_product_iteration_kjok.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+DevOps repose sur la synchronisation étroite entre le développement logiciel (coding, testing) 
+et l'exploitation (deployment, monitoring). L'objectif est d'automatiser et d'optimiser l'ensemble du cycle de vie du développement, 
+de la conception à la production, afin d'accélérer les déploiements et d'améliorer la qualité des logiciels.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Outils et Pratiques DevOps :',
+    Svg: require('@site/static/img/undraw_software_engineer_re_tnjc.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Des outils tels que Jenkins, Ansible, et Terraform sont utilisés pour automatiser divers processus. 
+        La conteneurisation avec Docker et l'orchestration avec Kubernetes sont également des pratiques courantes.
       </>
     ),
   },
@@ -37,7 +41,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--12')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
